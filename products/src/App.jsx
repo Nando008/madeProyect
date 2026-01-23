@@ -1,33 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import IndexPages from './pages/index/index'
+import MouseProduct from './pages/view_product/mouse'
+import KeyboardProduct from './pages/view_product/keyboard'
+import SupportProduct from './pages/view_product/support'
+import KitProduct from './pages/view_product/kit'
+import ViewServices from './pages/view_servicios/viewServicios'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <BrowserRouter>
+        <Routes>
+          {/* INICIO */}
+          <Route path='/' element={<IndexPages/>}></Route>
+
+          {/* Viesta de cada producto */}
+          <Route path='/MouseProduct' element={<MouseProduct/>}></Route>
+          <Route path='/KeyboardProduct' element={<KeyboardProduct/>}></Route>
+          <Route path='/SupportProduct' element={<SupportProduct/>}></Route>
+          <Route path='/KitProduct' element={<KitProduct/>}></Route>
+          <Route path='/ViewServices' element={<ViewServices/>}></Route>
+
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
