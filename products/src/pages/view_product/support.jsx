@@ -7,6 +7,7 @@ import PurchaseModals from "../componentes/purchaseModals";
 function ViewProduct() {
   const [open, setOpen] = useState(false);
   const [openSuccess, setOpenSuccess] = useState(false);
+  const urlSoporte = "http://localhost:5173/src/assets/img/soporte.jpeg";
 
   const [form, setForm] = useState({
     nombre: "",
@@ -20,13 +21,12 @@ function ViewProduct() {
   });
 
   const producto = {
-    nombre: "soporte para pc",
+    nombre: "Soporte para portátil",
     ubicacion: "Ocaña, Norte de Santander",
-    precio: "20.000",
+    precio: "25.000",
     descripcion:
-      "Soporte para PC en excelente estado, con un diseño que ayuda a mejorar la ventilación y reducir la fatiga durante su uso.",
-    imagen:
-      "https://http2.mlstatic.com/D_NQ_NP_2X_811411-MCO94029650241_102025-F.webp",
+      "Dispositivo que eleva la pantalla del ordenador hasta que el borde superior quede a la altura de los ojos, eliminando la flexión del cuello y evitando la sobrecarga de los discos intervertebrales cervicales.",
+    imagen: urlSoporte,
   };
 
   const departamentosColombia = [

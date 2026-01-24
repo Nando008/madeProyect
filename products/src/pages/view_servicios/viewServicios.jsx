@@ -37,35 +37,59 @@ function ViewServicios() {
   const servicios = [
     {
       id: 1,
-      nombre: "Rehabilitación física",
+      nombre: "Terapia Respiratoria",
       imagen:
-        "https://images.unsplash.com/photo-1606206873764-fd15e242df52",
+        "https://comohow.net/wp-content/uploads/2020/05/como-usar-un-nebulizador-2048x1083.jpg",
       descripcion:
-        "Tratamiento enfocado en la recuperación de lesiones musculares y articulares mediante ejercicios terapéuticos y técnicas manuales.",
+      "Abordaje sistémico que combina técnicas manuales, ejercicio terapéutico y agentes físicos para restaurar la funcionalidad máxima del movimiento. No solo trata el síntoma, sino que evalúa las cadenas cinéticas para corregir desequilibrios biomecánicos en todo el cuerpo.",
     },
     {
       id: 2,
-      nombre: "Terapia manual",
+      nombre: "Terapia Física Integral",
       imagen:
-        "https://d1o2ckyhhedjo8.cloudfront.net/wp/2022/12/Cetilar-tecniche-di-terapia-manuale.png",
+        "https://static.wixstatic.com/media/11062b_134fdd6885f445a194cb61c6b5b75202~mv2.jpeg/v1/fill/w_980,h_647,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_134fdd6885f445a194cb61c6b5b75202~mv2.jpeg",
       descripcion:
-        "Aplicación de técnicas manuales especializadas para aliviar el dolor, mejorar la movilidad y restaurar la función del cuerpo.",
+        "Abordaje sistémico que combina técnicas manuales, ejercicio terapéutico y agentes físicos para restaurar la funcionalidad máxima del movimiento. No solo trata el síntoma, sino que evalúa las cadenas cinéticas para corregir desequilibrios biomecánicos en todo el cuerpo.",
     },
     {
       id: 3,
-      nombre: "Fisioterapia deportiva",
+      nombre: "Manejo del Dolor",
       imagen:
-        "https://www.fisioadomiciliomadridfisioh.com/wp-content/uploads/2023/09/fisioterapia-deportiva-a-domicilio-madrid-fisioh-3.jpg",
+        "https://www.itcvertebral.com.br/wp-content/uploads/2023/12/remedio-para-coluna-inflamada-3-1536x1024.jpg",
       descripcion:
-        "Prevención y tratamiento de lesiones deportivas, optimizando el rendimiento físico y acelerando la recuperación.",
+      "Protocolo avanzado diseñado para modular y desensibilizar el sistema nervioso ante cuadros de dolor agudo o crónico. Mediante terapia manual y educación en neurociencia del dolor, se busca mejorar la calidad de vida y la movilidad sin fármacos.",
     },
     {
       id: 4,
-      nombre: "Terapia postural",
+      nombre: "Aplicación de Vendaje Kinesiológico",
       imagen:
-        "https://cecoten.com/wp-content/uploads/2025/06/sesion-de-reeducacion-postural-en-centro-de-rehabilitacion-en-Tenerife.jpg",
+        "https://www.metropolsalud.com/wp-content/uploads/2020/11/kinesiotape-vendaje-neuromuscular.jpg",
       descripcion:
-        "Corrección de hábitos posturales inadecuados para reducir dolores crónicos y mejorar la calidad de vida.",
+      "Técnica de soporte neuromuscular que utiliza cintas elásticas especiales para mejorar la propiocepción, facilitar el drenaje linfático y brindar estabilidad articular sin limitar el rango de movimiento. Es una herramienta coadyuvante que prolonga los efectos de la terapia manual.",
+    },
+    {
+      id: 5,
+      nombre: "Recuperación de Lesiones",
+      imagen:
+        "https://post.perks.optum.com/wp-content/uploads/sites/7/2023/08/perks-knee-work-1200x800-1-1024x683.jpg",
+      descripcion:
+      "Programa de intervención post-traumática o post-quirúrgica orientado a la reparación tisular eficiente. A través de fases de carga progresiva y control motor, se garantiza que los tejidos (tendones, ligamentos o músculos) recuperen su resistencia y funcionalidad original.",
+    },
+    {
+      id: 6,
+      nombre: "Rehabilitación Neurológica",
+      imagen:
+        "https://img.freepik.com/premium-photo/man-wheelchair-exercising-with-dumbbell-recovery_482257-331.jpg",
+      descripcion:
+      "Proceso terapéutico enfocado en la neuroplasticidad para restaurar patrones de movimiento perdidos por daño en el Sistema Nervioso Central o Periférico. El objetivo es mejorar el control motor, el equilibrio y la independencia funcional en pacientes con diagnósticos como ACV, Parkinson o lesiones medulares.",
+    },
+    {
+      id: 7,
+      nombre: "Descargas Musculares",
+      imagen:
+        "https://static.runnea.com/images/202405/masajes-descarga-runners-beneficios-recurso1.jpg?0",
+      descripcion:
+        "Procedimiento terapéutico de terapia manual intensa diseñado para reducir los puntos gatillo, mejorar la vascularización y acelerar la eliminación de residuos metabólicos, optimizando así el tiempo de recuperación y previniendo lesiones.",
     },
   ];
 

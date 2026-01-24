@@ -7,6 +7,7 @@ import PurchaseModals from "../componentes/purchaseModals";
 function ViewProduct() {
   const [open, setOpen] = useState(false);
   const [openSuccess, setOpenSuccess] = useState(false);
+  const urlMouse = "http://localhost:5173/src/assets/img/mouse.jpeg";
 
   const [form, setForm] = useState({
     nombre: "",
@@ -22,11 +23,10 @@ function ViewProduct() {
   const producto = {
     nombre: "Mouse ergonómico",
     ubicacion: "Ocaña, Norte de Santander",
-    precio: "50.000",
+    precio: "40.000",
     descripcion:
-      "Mouse ergonómico en excelente estado, diseño cómodo que reduce la fatiga.",
-    imagen:
-      "https://http2.mlstatic.com/D_NQ_NP_2X_771103-MLA99599831700_122025-F.webp",
+      "Dispositivo diseñado para evitar la pronación forzada del antebrazo (giro de la palma hacia abajo), que es la principal causa de tensión en el túnel carpiano.",
+    imagen: urlMouse,
   };
 
   const departamentosColombia = [

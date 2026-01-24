@@ -7,6 +7,7 @@ import PurchaseModals from "../componentes/purchaseModals";
 function ViewProduct() {
   const [open, setOpen] = useState(false);
   const [openSuccess, setOpenSuccess] = useState(false);
+  const urlKit = "http://localhost:5173/src/assets/img/kitBio.jpeg";
 
   const [form, setForm] = useState({
     nombre: "",
@@ -20,13 +21,12 @@ function ViewProduct() {
   });
 
   const producto = {
-    nombre: "Kit ergonómico",
+    nombre: "BIOERGO KIT",
     ubicacion: "Ocaña, Norte de Santander",
-    precio: "120.000",
+    precio: "170.000",
     descripcion:
-      "Kit de mouse, teclado y soporte para PC en excelente estado, con diseño ergonómico que brinda comodidad, mejora la postura y reduce la fatiga durante el uso.",
-    imagen:
-      "https://latam.humanscale.com/userFiles/images/laptopholders/17_humanscale_ergo_laptop_holder_2b(1).jpg",
+      "Es una solución técnica diseñada para la adecuación ergonómica de puestos de trabajo. Este conjunto de implementos actúa de manera sinérgica para corregir la higiene postural, neutralizar las cargas físicas y mitigar los factores de riesgo biomecánico.",
+    imagen: urlKit,
   };
 
   const departamentosColombia = [

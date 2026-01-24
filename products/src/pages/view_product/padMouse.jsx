@@ -7,7 +7,7 @@ import PurchaseModals from "../componentes/purchaseModals";
 function ViewProduct() {
   const [open, setOpen] = useState(false);
   const [openSuccess, setOpenSuccess] = useState(false);
-  const urlTeclado = "http://localhost:5173/src/assets/img/teclado.jpeg";
+  const urlPadMouse = "http://localhost:5173/src/assets/img/padMouse.jpeg";
 
   const [form, setForm] = useState({
     nombre: "",
@@ -21,12 +21,12 @@ function ViewProduct() {
   });
 
   const producto = {
-    nombre: "Teclado ergonómico",
+    nombre: "Pad mouse",
     ubicacion: "Ocaña, Norte de Santander",
-    precio: "75.000",
+    precio: "25.000",
     descripcion:
-      "Dispositivo que se adapta a la anatomía natural de los brazos y manos, facilitando que los hombros permanezcan en posición relajada y los codos mantengan un ángulo cercano a los 90°.",
-    imagen: urlTeclado,
+      "Dispositivo que proporciona una superficie de apoyo blanda que distribuye las presiones de contacto en la zona del carpo, evita la extensión excesiva de la muñeca, manteniendo una alineación horizontal neutra.",
+    imagen: urlPadMouse,
   };
 
   const departamentosColombia = [

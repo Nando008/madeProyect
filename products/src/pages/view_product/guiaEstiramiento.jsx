@@ -7,7 +7,7 @@ import PurchaseModals from "../componentes/purchaseModals";
 function ViewProduct() {
   const [open, setOpen] = useState(false);
   const [openSuccess, setOpenSuccess] = useState(false);
-  const urlTeclado = "http://localhost:5173/src/assets/img/teclado.jpeg";
+  const urlGuia = "http://localhost:5173/src/assets/img/Guía.jpeg";
 
   const [form, setForm] = useState({
     nombre: "",
@@ -21,12 +21,12 @@ function ViewProduct() {
   });
 
   const producto = {
-    nombre: "Teclado ergonómico",
+    nombre: "Guía de estiramientos musculares",
     ubicacion: "Ocaña, Norte de Santander",
-    precio: "75.000",
+    precio: "20.000",
     descripcion:
-      "Dispositivo que se adapta a la anatomía natural de los brazos y manos, facilitando que los hombros permanezcan en posición relajada y los codos mantengan un ángulo cercano a los 90°.",
-    imagen: urlTeclado,
+      "Protocolo técnico diseñado bajo principios fisioterapéuticos para la ejecución de pausas activas seguras. Este programa integral facilita la elongación muscular y la reducción de la fatiga física en el entorno laboral.",
+    imagen: urlGuia,
   };
 
   const departamentosColombia = [

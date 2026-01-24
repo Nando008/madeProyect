@@ -51,32 +51,48 @@ const Card = ({ imagen, nombre, link }) => {
 };
 
 function IndexPages() {
+
+  const urlMouse = "http://localhost:5173/src/assets/img/mouse.jpeg";
+  const urlTeclado = "http://localhost:5173/src/assets/img/teclado.jpeg";
+  const urlSoporte = "http://localhost:5173/src/assets/img/soporte.jpeg";
+  const urlPadMouse = "http://localhost:5173/src/assets/img/padMouse.jpeg";
+  const urlGuia = "http://localhost:5173/src/assets/img/Guía.jpeg";
+  const urlKit = "http://localhost:5173/src/assets/img/kit.jpeg";
+  
   const tarjetas = [
     {
       id: 1,
-      imagen:
-        "https://http2.mlstatic.com/D_NQ_NP_2X_771103-MLA99599831700_122025-F.webp",
+      imagen: urlMouse,
       nombre: "Mouse ergonómico ",
       link: "/MouseProduct",
     },
     {
       id: 2,
-      imagen:
-        "https://imagenes.elpais.com/resizer/v2/YBE32YD7ABANRCE7D67MCVL57Q.jpg?auth=1edd58ca0b9072efb4393a9256d5139e454f82ed0a7e435245b29f01b00648eb&width=1960",
+      imagen: urlTeclado,
       nombre: "Teclado ergonómico ",
       link: "/KeyboardProduct",
     },
     {
       id: 3,
-      imagen:
-        "https://http2.mlstatic.com/D_NQ_NP_2X_811411-MCO94029650241_102025-F.webp",
+      imagen: urlSoporte,
       nombre: "Soporte para pc",
       link: "/SupportProduct",
     },
     {
       id: 4,
-      imagen:
-        "https://latam.humanscale.com/userFiles/images/laptopholders/17_humanscale_ergo_laptop_holder_2b(1).jpg",
+      imagen: urlPadMouse,
+      nombre: "Pad mouse ergonómico",
+      link: "/PadMouseProduct",
+    },
+    {
+      id: 5,
+      imagen: urlGuia,
+      nombre: "Guía de estiramientos musculares",
+      link: "/GuiaProduct",
+    },
+    {
+      id: 6,
+      imagen: urlKit,
       nombre: "Kit ergonómico",
       link: "/KitProduct",
     },

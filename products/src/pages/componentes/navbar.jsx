@@ -23,7 +23,7 @@ function NavBarPage() {
                 MADELIN BENAVIDES
               </h1>
               <p className="text-xs sm:text-sm text-slate-300 font-medium truncate">
-                Fisioterapeuta Profesional
+                Fisioterapeuta Especialista en SST
               </p>
             </div>
           </div>
