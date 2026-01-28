@@ -34,10 +34,10 @@ function NavBarPage() {
                 <Link to="/">Inicio</Link>
             </div>
             <div className="text-slate-200 hover:text-blue-950 transition-colors font-medium">
-                <Link to="/ViewServices">servicios</Link>
+                <Link to="/ViewServices">Servicios</Link>
             </div>
             <div className="text-slate-200 hover:text-blue-950 transition-colors font-medium">
-                <Link to="/">Sobre Mí</Link>
+                <Link to="/ViewSobreMi">Sobre Mí</Link>
             </div>
           </div>
 
@@ -93,7 +93,7 @@ function NavBarPage() {
                 Servicios
             </Link>
             <Link
-                to="/"
+                to="/ViewSobreMi"
                 onClick={() => setOpen(false)}
                 className="text-slate-200 hover:text-white hover:bg-white/10 rounded-lg px-3 py-2 transition font-medium block"
             >

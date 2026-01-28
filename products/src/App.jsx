@@ -9,6 +9,7 @@ import GuiaProduct from './pages/view_product/guiaEstiramiento'
 
 import KitProduct from './pages/view_product/kit'
 import ViewServices from './pages/view_servicios/viewServicios'
+import ViewSobreMi from './pages/view_sobre_mi/viewSobreMi'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/PadMouseProduct' element={<PadMouseProduct/>}></Route>
           <Route path='/KitProduct' element={<KitProduct/>}></Route>
           <Route path='/ViewServices' element={<ViewServices/>}></Route>
+          <Route path='/ViewSobreMi' element={<ViewSobreMi/>}></Route>
 
         </Routes>
       </BrowserRouter>
