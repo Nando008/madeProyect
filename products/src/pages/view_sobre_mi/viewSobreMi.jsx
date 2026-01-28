@@ -46,19 +46,19 @@ function ViewSobreMi() {
             <div className={`transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
               <div className="space-y-6">
                 <div className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-semibold mb-4">
-                  Fisioterapeuta Certificada
+                  Profesional en fisioterapia
                 </div>
                 
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-                  Esp. Madelin Benavides
+                  Ft. Esp. Angie Madelin Benavides Robles
                 </h2>
                 
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Con más de 10 años de experiencia en fisioterapia, mi pasión es ayudar a las personas a recuperar su movilidad y mejorar su calidad de vida. Creo firmemente en un enfoque holístico que combina técnicas tradicionales con los últimos avances en rehabilitación.
+                  Cuento con una sólida trayectoria de 4 años de experiencia combinada, destacando mi labor en servicios domiciliarios y la integración en Equipos Básicos de Salud (EBS).
                 </p>
                 
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Mi objetivo es no solo tratar el dolor, sino entender la causa raíz y trabajar contigo para crear un plan de tratamiento personalizado que se adapte a tus necesidades únicas.
+                  Experta en la gestión y capacitación de riesgos laborales, con enfoque en la intervención técnica de puestos de trabajo, higiene postural y ergonomía operativa. Poseo una alta capacidad analítica para identificar condiciones de riesgo y proponer soluciones preventivas que impacten positivamente en la productividad y el bienestar del trabajador.
                 </p>
               </div>
             </div>
