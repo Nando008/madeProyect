@@ -7,7 +7,7 @@ import PurchaseModals from "../componentes/purchaseModals";
 function ViewProduct() {
   const [open, setOpen] = useState(false);
   const [openSuccess, setOpenSuccess] = useState(false);
-  const urlGuia = "http://localhost:5173/src/assets/img/Guía.jpeg";
+  const urlGuia = "https://raw.githubusercontent.com/Nando008/madeProyect/main/products/src/assets/img/Gu%C3%ADa.jpeg";
 
   const [form, setForm] = useState({
     nombre: "",

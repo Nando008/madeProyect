@@ -7,7 +7,7 @@ import PurchaseModals from "../componentes/purchaseModals";
 function ViewProduct() {
   const [open, setOpen] = useState(false);
   const [openSuccess, setOpenSuccess] = useState(false);
-  const urlPadMouse = "http://localhost:5173/src/assets/img/padMouse.jpeg";
+  const urlPadMouse = "https://raw.githubusercontent.com/Nando008/madeProyect/main/products/src/assets/img/padMouse.jpeg";
 
   const [form, setForm] = useState({
     nombre: "",

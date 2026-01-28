@@ -7,7 +7,7 @@ import PurchaseModals from "../componentes/purchaseModals";
 function ViewProduct() {
   const [open, setOpen] = useState(false);
   const [openSuccess, setOpenSuccess] = useState(false);
-  const urlTeclado = "http://localhost:5173/src/assets/img/teclado.jpeg";
+  const urlTeclado = "https://raw.githubusercontent.com/Nando008/madeProyect/main/products/src/assets/img/teclado.jpeg";
 
   const [form, setForm] = useState({
     nombre: "",

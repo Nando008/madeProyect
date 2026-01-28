@@ -7,7 +7,7 @@ import PurchaseModals from "../componentes/purchaseModals";
 function ViewProduct() {
   const [open, setOpen] = useState(false);
   const [openSuccess, setOpenSuccess] = useState(false);
-  const urlKit = "http://localhost:5173/src/assets/img/kitBio.jpeg";
+  const urlKit = "https://raw.githubusercontent.com/Nando008/madeProyect/main/products/src/assets/img/kitBio.jpeg";
 
   const [form, setForm] = useState({
     nombre: "",
